@@ -54,21 +54,21 @@ document.addEventListener('DOMContentLoaded', () => {
             title: "BLENDER 3D WORKFLOWS",
             color: "text-pink",
             type: "gallery",
-            media: ["blender1.jpg", "blender2.jpg", "blender3.jpg", "blender4.jpg"],
+            media: ["images/photo_1_2026-06-05_22-57-11.jpg", "images/photo_2_2026-06-05_22-57-11.jpg", "images/photo_4_2026-06-05_22-57-11.jpg", "images/photo_6_2026-06-05_22-57-11.jpg"],
             desc: "A comprehensive showcase of 3D modeling, texturing, and rendering. Focus on hard-surface modeling and optimizing assets for real-time engine integration."
         },
         system: {
             title: "BACKEND INFRASTRUCTURE",
             color: "text-cyan",
             type: "gallery",
-            media: ["sys1.jpg", "sys2.jpg", "sys3.jpg", "sys4.jpg"],
+            media: ["images/photo_5_2026-06-05_22-57-11.jpg", "images/photo_2_2026-06-05_23-09-11.jpg", "images/photo_3_2026-06-05_23-09-11.jpg", "images/photo_1_2026-06-05_23-09-11.jpg"],
             desc: "System architecture and backend database management. Designed to handle secure data flow, user authentication, and seamless front-end communication."
         },
         game: {
             title: "VISUAL STUDIO GAME",
             color: "text-yellow",
             type: "video",
-            media: "game-preview.mp4",
+            media: "images/0605 (2).mp4",
             desc: "Custom game logic built entirely inside Visual Studio. Demonstrates physics calculations, collision detection, and raw C++ / C# application mechanics."
         }
     };
