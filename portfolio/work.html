@@ -22,20 +22,58 @@
     <main class="cyber-container">
         <div class="content-box neon-border-cyan">
             <h1 class="text-yellow">PROJECT.DATABASE</h1>
-            <p>Accessing portfolio archives. 3D assets, audio mixes, and environmental builds.</p>
+            <p class="lead-text">Accessing portfolio archives. 3D assets, backend systems, and engine builds.</p>
             
             <div class="work-grid">
-                <div class="work-card">
-                    <div class="work-visual bg-pink-glitch">AUDIO/VISUAL</div>
-                    <h3 class="text-cyan mt-1">Spatial Audio Engine</h3>
+                
+                <div class="work-card border-pink project-trigger" data-project="blender">
+                    <div class="work-preview slideshow-container" id="slide-blender">
+                        <img src="blender1.jpg" class="slide active" alt="Blender preview 1">
+                        <img src="blender2.jpg" class="slide" alt="Blender preview 2">
+                        <img src="blender3.jpg" class="slide" alt="Blender preview 3">
+                        <img src="blender4.jpg" class="slide" alt="Blender preview 4">
+                    </div>
+                    <h3 class="text-pink mt-1">Blender 3D Workflows</h3>
+                    <p class="sys-msg text-cyan">>> CLICK TO EXPAND</p>
                 </div>
-                <div class="work-card">
-                    <div class="work-visual bg-cyan-glitch">3D ASSETS</div>
-                    <h3 class="text-yellow mt-1">Real-time Props Modeler</h3>
+
+                <div class="work-card border-cyan project-trigger" data-project="system">
+                    <div class="work-preview slideshow-container" id="slide-system">
+                        <img src="sys1.jpg" class="slide active" alt="System preview 1">
+                        <img src="sys2.jpg" class="slide" alt="System preview 2">
+                        <img src="sys3.jpg" class="slide" alt="System preview 3">
+                        <img src="sys4.jpg" class="slide" alt="System preview 4">
+                    </div>
+                    <h3 class="text-cyan mt-1">Backend Infrastructure</h3>
+                    <p class="sys-msg text-yellow">>> CLICK TO EXPAND</p>
                 </div>
+
+                <div class="work-card border-yellow project-trigger" data-project="game">
+                    <div class="work-preview video-container">
+                        <video src="game-preview.mp4" autoplay loop muted playsinline></video>
+                    </div>
+                    <h3 class="text-yellow mt-1">Visual Studio Game</h3>
+                    <p class="sys-msg text-pink">>> CLICK TO EXPAND</p>
+                </div>
+
             </div>
         </div>
     </main>
+
+    <div id="project-modal" class="cyber-modal hidden">
+        <div class="modal-content border-yellow">
+            <div class="modal-header">
+                <h2 id="modal-title" class="text-yellow glitch-text" data-text="TITLE">TITLE</h2>
+                <button id="close-modal" class="text-pink">[X] TERMINATE</button>
+            </div>
+            <div id="modal-media-gallery" class="modal-media mt-1">
+                </div>
+            <div class="modal-desc-box border-cyan mt-1">
+                <p id="modal-desc">Description loading...</p>
+            </div>
+        </div>
+    </div>
+
     <script src="script.js"></script>
 </body>
 </html>
